@@ -2,12 +2,6 @@ package practice.string;
 
 public class SequentialWordsNumbers {
 
-
-    public static void main(String[] args) {
-
-        System.out.println(sequentialWordsNumbers(""));
-    }
-
     public static String sequentialWordsNumbers(String text) {
 
         StringBuilder numerationWords = new StringBuilder("");
