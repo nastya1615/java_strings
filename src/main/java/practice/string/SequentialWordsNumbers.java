@@ -13,11 +13,10 @@ public class SequentialWordsNumbers {
             if (a == -1) {
                 String word = text.substring(i);
 
-                if (word.isEmpty()){
+                if (word.isEmpty()) {
                     numerationWords.append(word);
                     break;
-                }
-                else {
+                } else {
                     numerationWords.append("(").append(index).append(") ").append(word);
                     break;
                 }
@@ -30,10 +29,7 @@ public class SequentialWordsNumbers {
             index++;
 
 
-
-
-
-    }
+        }
         return numerationWords.toString();
-}
+    }
 }
